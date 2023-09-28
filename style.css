@@ -1,0 +1,503 @@
+/* techno css */
+*{margin:0px;
+ padding:0px;
+box-sizing: border-box;}
+.row::after{content:"";
+    clear:both;
+    display:table;}
+    [class*="col-"]{float:left;
+        padding: 5px;
+        background-color: white;
+        border:0px solid black;}
+ /* For desktop: */
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+ 
+ .tab{background-color:aliceblue;
+      margin: 0%;}
+#icon1{
+padding: 30px;
+padding-left: 3px;
+font-family: vardana;
+font-size: 15px;}
+       #icon1 a{padding:0px 20px;
+              text-decoration: none;
+              color:black;}
+
+#icon2{
+padding: 20px 10px;}
+
+#icon3{
+       padding: 20px 0px;}  
+#icon3 a{padding:0px 15px;} 
+
+.main{width:100%;
+    height:720px;
+    background-image:url(backgd.jpg);
+    opacity:calc(30dg);
+    background-size:cover;}
+/*********** NAV ENDED HERE ***********/
+#submain{
+       padding: 30px;
+        padding-top: 60px;
+        opacity: .45;
+        margin-left: 100px;
+       margin-top: 130px;
+       background-color: white;}   
+#submain h1{color:black;
+opacity: 100%;}  
+#submain p{color:black;
+           line-height: 1.5;
+           font-size: 20px;}
+  @media screen and (max-width: 780px) {
+       #submain {margin-top: 0;
+              margin-left: 0;
+                background-color: rgb(77, 224, 234);
+              }
+            }    
+ /*********** SUBMAIN ENDED HERE ************/
+
+   #text{margin-top: 80px;}
+     
+#ti{ height: 500px;
+     padding-top: 30px;} 
+
+#ti p{font-size: 22px;
+       padding: 15px;
+      color:rgb(157, 157, 157)}
+#ti h1{font-size: 35px;
+       padding: 5px;}   
+
+.tia a{padding: 15px 50px;
+       margin-left: 80px;
+       color:white;
+       text-decoration: none;
+     border-radius: 30px;
+background-color:chartreuse;}
+@media screen and (max-width:780px){
+       .tia a{
+              margin-left: 75px;
+       }
+}
+.tia :hover{background-color:black}
+.tia{margin-top: 50px;}
+#IMG2{height:500px;
+     padding-left: 150px;
+     background-color: dodgerblue;}
+@media screen and (max-width:780px) {
+       #IMG2{
+              padding-left: 10px;   
+       }
+}     
+     
+#ti2 img{width: 580px;
+         height: 580px;
+         margin-top: -85px;
+         padding-left: 80px;} 
+ #btn{padding: 80px 0px;
+     }         
+         
+@media screen and (max-width:780px){
+       #btn{
+              
+              padding-top: 30px;
+              row-gap: 15px;
+       }
+}     
+#clip{margin-right: 14px;
+      text-align: center;
+      padding:15px;
+      border-radius: 30px;
+      background-color:blue;} 
+
+ @media screen and (max-width: 780px){
+       #clip  {
+              margin-right:0px;
+                background-color: rgb(250, 4, 131);
+              }
+            }   
+
+#clip:hover{
+       background-color: green;} 
+#clip a{text-decoration: none;
+        color:black;
+       } 
+           
+#clip1{
+       padding:16px;
+       border-radius: 30px;
+       background-color:orange;} 
+#clip1 a{text-decoration: none;
+       color:black;
+      }       
+ #clip1:hover{
+        background-color:rgb(214, 6, 225);} 
+ /**********part-3 ended here**********/
+  /**********part-4 started here**********/      
+#max{background-color:blanchedalmond;
+     height:640px;
+     margin-top: 15px;
+     }
+.fox{text-align: center;}
+     #max h1{text-align: center;
+             padding-top: 40px;
+             }  
+ #max p{text-align: center;
+         line-height: 1.5;
+         }               
+     
+     #d1 img{float: left;} 
+     #d1{width:390px;
+     height: 400px;
+     margin:15px;
+     }
+     
+     .read{
+       margin: 15px;
+     }
+     #d1 h1{padding-top: 90px;} 
+     #d1 p{font-size: 20px;
+           width:300px;
+           text-align: justify;
+           padding-left: 10px;
+           padding-right: 10px;}     
+     
+     #d2 img{float: left;} 
+     #d2{width:400px;
+         height: 400px;
+         margin:15px;} 
+     #d2 h1{padding-top: 90px;} 
+     #d2 p{font-size: 20px;
+           width:300px;
+           text-align: justify;
+           padding-left: 10px;
+           padding-right: 10px;}     
+     
+     #d3 img{float: left;} 
+     #d3{width:400px;
+         height: 400px;
+         margin:15px;} 
+     #d3 h1{padding-top: 60px;} 
+     #d3 p{font-size: 20px;
+           width:300px;
+           text-align: justify;
+           padding-left: 10px;
+           padding-right: 10px;}     
+/******** PART-4 ENDED HERE **********/
+#lake{margin: 30px;}
+
+#p1 img{margin-top: 30px;
+        }
+#p1 p{font-size: 15px;
+      width: 350px; 
+      text-align: justify;
+     color:rgb(133, 131, 131);}
+#li{
+    margin-left: 140px;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 30px;
+    color:white;
+    padding: 10px 20px;
+    background-color: blue;}
+#li:hover{
+        background-color:darkorange}    
+
+#p2{
+    font-size: 20px;} 
+
+#xt { 
+       text-decoration: none;
+       padding: 30px;
+       padding-left: 20px;
+       height: 100px;
+       font-size: 20px;
+       background-color:rgb(244, 243, 243);}
+#xt img{ float: right;
+         padding: 8px;}
+#p2 p{ margin-top: 30px;}         
+#xt a{text-decoration: none;
+       padding:30px;
+color:black;}  
+#xt1 { padding: 15px;
+       font-size: 20px;
+       height: 60px;}
+#xt1 img{ float: right;
+          padding: 8px;}
+#xt1 a{text-decoration: none;}  
+#xt2 {padding: 15px;
+       height: 60px;
+       font-size: 20px;}  
+#xt2 img{ float: right;
+          padding: 8px;}
+#xt2 a{text-decoration: none;}  
+
+/* PART-5 ENDED HERE */
+#number{height:600px;
+       padding: 20px;
+       border: .5px solid gainsboro;
+       margin-top: 40px;
+       }  
+
+#number h1{text-align: center;
+           font-size: 40px;
+       margin: 30px;}        
+        
+#odd{height:400px;
+     background-color: rgb(245, 249, 122);}
+
+#odd img{width:40px;
+height: 40px;
+margin-left: 280px;
+margin-top: -50px;}
+
+#odd h4{text-align: center;
+       font-size: 25px;
+       padding-top: 20px;
+       color:rgba(56, 52, 52, 0.45);
+       }
+#even{height:400px;
+      background-color: rgb(152, 251, 252); } 
+#even img{width:40px;
+       height: 40px;
+       margin-left: 280px;
+       margin-top: -40px;
+}
+#even h4{text-align: center;
+       font-size: 25px;
+       padding-top: 20px;
+       color:rgba(56, 52, 52, 0.45);
+       }
+              
+#mongo1 img{width: 200px;
+         height:200px;
+         border-radius: 130px;
+         margin-top: 30px;
+       float: right;}
+
+#mongo img{width: 200px;
+              height:200px;
+              border-radius: 130px;
+              margin-top: 30px;
+            float:right;}       
+/* PART-5 ENDED HERE */
+
+#hall{height: 600px;}  
+#hall h1{text-align: center;
+         font-size: 50px;
+       padding: 20px;}
+
+#room1{height: 500px;
+background-color:beige;}         
+#room1 h1{
+       height: 100px;
+       margin-left: 10px;
+       background-color: black;
+       padding-top: 10px;
+       color: white;}  
+#room1 h2{font-size: 50px;
+margin-left: 140px;}  
+#room1 p{text-align: center;
+         color:rgb(62, 61, 60);
+         font-size: 20px;
+          line-height: 1.5;}     
+#room1 a {text-align:center;
+         text-decoration: none;
+         color: white;
+       border-radius: 40px;
+       padding: 6px 10px;
+       margin-left: 140px;
+       background-color: blue;
+       font-size: 25px;}
+
+@media only screen and (max-width:780px){
+              #room1 a{
+                     padding: 8px 10px;
+                     font-size: 25px;
+               margin-left: 110px;
+               background-color: orange; }}
+ @media only screen and (max-width:780px){
+       #room1 h2{margin-left: 100px;
+              margin-left: 85px;}}        
+#room1 a:hover{width:100px;
+background-color: black;}
+
+#room2{height: 500px;
+       background-color:beige;}         
+#room2 h1{
+          height: 100px;
+       background-color:orange;
+margin-left: 10px;
+padding-top: 10px;
+color: white;}  
+#room2 h2{font-size: 50px;
+margin-left: 140px;}  
+#room2 p{text-align: center;
+         color:rgb(62, 61, 60);
+         font-size: 20px;
+          line-height: 1.5;}     
+#room2 a {text-align:center;
+         text-decoration: none;
+         color: white;
+       border-radius: 40px;
+       padding: 6px 10px;
+       margin-left: 140px;
+       background-color: blue;
+       font-size: 25px;}
+       
+ @media only screen and (max-width:780px){
+              #room2 a{
+                     padding: 8px 10px;
+                     font-size: 25px;
+               margin-left: 110px;
+               background-color: green; }}
+ @media only screen and (max-width:780px){
+       #room2 h2{margin-left: 100px;
+              margin-left: 85px;}}  
+              
+              
+#room2 a:hover{width:100px;
+background-color: rgb(28, 26, 26);}
+
+#room3{height: 500px;
+       background-color:beige;}         
+#room3 h1{
+          height: 100px;
+         background-color: black;
+margin-left: 10px;
+padding-top: 10px;
+color: white;}  
+#room3 h2{font-size: 50px;
+margin-left: 140px;}  
+#room3 p{text-align: center;
+         color:black;
+         font-size: 20px;
+          line-height: 1.5;}     
+#room3 a {text-align:center;
+         text-decoration: none;
+         color: white;
+       border-radius: 40px;
+       padding: 6px 10px;
+       margin-left: 140px;
+       background-color: blue;
+       font-size: 25px;}
+
+ @media only screen and (max-width:780px){
+              #room3 a{
+                     padding: 8px 10px;
+                     font-size: 25px;
+               margin-left: 110px;
+               background-color: orange; }}
+ @media only screen and (max-width:780px){
+       #room3 h2{font-size: 30px;
+              margin-left: 100px;}}  
+              
+              
+#room3 a:hover{width:100px;
+background-color: black;}
+/* PART-6 ENDED HERE */
+.tree{
+      height:400px;
+      margin-top:10px;
+      background-size: cover;
+background: linear-gradient(to bottom ,rgba(12, 10, 10, 0.2),rgba(143, 153, 67, 0.6), rgba(5, 3, 3, 0.2),rgba(6, 6, 6, 0.55)),url(techwall.jpg);}
+
+.tree h1{text-align: center;
+       color: yellow;
+         font-size: 35px;
+         line-height: 1;
+       padding-top: 60px;}
+      
+.tree h2{text-align: center;
+         color:white;
+         font-size: 40px;
+       line-height: 1;} 
+.tree p{
+       text-align: center;
+       height: 100px;
+       margin-left: 30px;
+        font-size: 20px;
+       color:white;} 
+#mail{
+       font-size: 20px;
+       height: 50px;
+       margin-top: 30px;
+       border: 0px;
+       margin: auto;
+       } 
+
+.search{display: flex;
+        justify-content: center;
+        }     
+#submit{
+        height:50px;
+        border: 0px;
+        padding: 0px 5px;
+        border-top-right-radius: 10px;
+        background-color: orange;
+        margin: auto;
+        font-size: 20px;} 
+/* PART-7 ENDED HERE */
+.flex{border: 1px solid red;
+       margin:20px;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center;} 
+     
+      .heading{margin-top: 40px;
+       text-align: center;
+       font-size: 40px;
+       font-family: sans-serif;}
+
+.item{flex-basis: 32%;
+       margin: 10px;
+       padding-top: 20px;
+       text-align: center;
+       background-color: darkgrey;
+       box-shadow:0px 0px 20px 1px greenyellow;} 
+
+ .item:hover{ margin: 20px; }
+ .item{margin:0px;}
+.matt {margin:0px;
+       padding: 40px;
+       cursor: pointer;
+     font-size: 25px;
+     color: gray;
+text-align: center;
+background-color: black;}   
+.footer b{color:white; font-size: 30px;} 
+.footer e{color:darkorange;}   
+.footer {color:white;}
+@media only screen and(max-width:780px) {
+       .matt{margin-left: 10px;}
+}       
+@media only screen and (min-width:200px) and (max-width:767px){
+       .flex{width:100%;flex-direction: column;
+       }}
+
+@media only screen and (min-width:200px) and (max-width:767px){
+       .main{width:100%; display: column;}
+}
+@media only screen and (min-width:200px) and (max-width: 767px) {
+       /* For mobile phones: */
+       [class*="col-"] { margin: 10px;
+         width: 100%;
+       }}
+
+
+
+
+       
+
+
+       
